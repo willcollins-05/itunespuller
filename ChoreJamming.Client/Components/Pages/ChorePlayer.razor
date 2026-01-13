@@ -23,6 +23,8 @@
         <div class="card-body">
             <h5 class="card-title">@currentSong.Title</h5>
             <h6 class="card-subtitle mb-2 text-muted">@currentSong.Artist</h6>
+            <h6 class="card-subtitle mb-2 text-muted">@currentSong.ReleaseDate</h6>
+            <h6 class="card-subtitle mb-2 text-muted">@currentSong.PrimaryGenreName</h6>
             <iframe width="100%" height="200" src="@GetEmbedUrl(currentSong.VideoUrl)" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
