@@ -8,30 +8,48 @@ public class AudioDbService : IMusicProvider
 {
     private readonly HttpClient _http;
 
+    private JToken? _previousResults;
+    
     public AudioDbService(HttpClient http)
     {
         _http = http;
     }
 
-    public async Task<Song?> GetSongAsync(string query)
+    public async Task<Song?> GetSongAsync(string query, bool remix)
     {
-        var url = $"https://itunes.apple.com/search?term={query}&entity=song&limit=1";
+        const int numberOfSongsPulled = 10;
+        var url = $"https://itunes.apple.com/search?term={query}&entity=song&limit={numberOfSongsPulled}";
 
-        try 
+        try
         {
-            var response = await _http.GetAsync(url);
-            if (!response.IsSuccessStatusCode) return null;
+            JToken? results;
+            if (remix)
+            {
+                if (_previousResults == null || !_previousResults.HasValues)
+                {
+                    return null;
+                }
+                results = _previousResults;
+            }
+            else
+            {
+                var response = await _http.GetAsync(url);
+                if (!response.IsSuccessStatusCode) return null;
 
-            var jsonString = await response.Content.ReadAsStringAsync();
-            
-            if (string.IsNullOrWhiteSpace(jsonString)) return null;
+                var jsonString = await response.Content.ReadAsStringAsync();
+                
+                if (string.IsNullOrWhiteSpace(jsonString)) return null;
 
-            var json = JObject.Parse(jsonString);
-            var results = json["results"];
+                var json = JObject.Parse(jsonString);
+                results = json["results"];
 
-            if (results == null || !results.HasValues) return null;
+                if (results == null || !results.HasValues) return null;
+                _previousResults = results;
+            }
 
-            var item = results[0];
+            Random random = new Random();
+
+            var item = results[random.Next(numberOfSongsPulled)];
             return new Song
             {
                 Title = item["trackName"]?.ToString() ?? "Unknown",

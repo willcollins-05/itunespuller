@@ -12,9 +12,9 @@ public class ChoreService
         _repo = repo;
     }
 
-    public async Task<Song?> ProcessChoreAsync(string choreName)
+    public async Task<Song?> ProcessChoreAsync(string choreName, bool remix)
     {
-        var song = await _music.GetSongAsync(choreName);
+        var song = await _music.GetSongAsync(choreName, remix);
         if (song != null)
         {
             var history = new ChoreHistory 

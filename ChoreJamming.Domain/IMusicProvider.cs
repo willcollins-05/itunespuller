@@ -4,6 +4,6 @@ namespace ChoreJamming.Domain;
 
 public interface IMusicProvider
 {
-    Task<Song?> GetSongAsync(string searchQuery);
+    Task<Song?> GetSongAsync(string searchQuery, bool remix);
     
 }
