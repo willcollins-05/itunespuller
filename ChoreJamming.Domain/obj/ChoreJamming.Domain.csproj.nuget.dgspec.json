@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/ChoreJamming.Domain.csproj": {}
+    "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\ChoreJamming.Domain.csproj": {}
   },
   "projects": {
-    "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/ChoreJamming.Domain.csproj": {
+    "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\ChoreJamming.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/ChoreJamming.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\ChoreJamming.Domain.csproj",
         "projectName": "ChoreJamming.Domain",
-        "projectPath": "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/ChoreJamming.Domain.csproj",
-        "packagesPath": "/Users/plate/.nuget/packages/",
-        "outputPath": "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/obj/",
+        "projectPath": "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\ChoreJamming.Domain.csproj",
+        "packagesPath": "C:\\Users\\kyleb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/plate/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kyleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,22 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

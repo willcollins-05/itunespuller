@@ -19,7 +19,7 @@
 
 @if (currentSong != null)
 {
-    <div class="card" style="width: 24rem;">
+    <div class="card" style="width: 24rem; background-color:@GetCardColor(currentSong.PrimaryGenreName)">
         <div class="card-body">
             <h5 class="card-title">@currentSong.Title</h5>
             <h6 class="card-subtitle mb-2 text-muted">@currentSong.Artist</h6>
@@ -60,6 +60,18 @@ else if (hasSearched)
     {
         if (string.IsNullOrEmpty(url)) return "";
         return url.Replace("watch?v=", "embed/");
+    }
+
+    private string GetCardColor(string genre)
+    {
+        return genre switch
+        {
+            "Pop" => "#FFC0CB",
+            "Rock" => "#A9A9A9",
+            "Country" => "FF9913",
+            "Jazz" => "#00080",
+            _ => "#FFFFFF"
+        };
     }
     
 }

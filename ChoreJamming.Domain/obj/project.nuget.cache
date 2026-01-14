@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BbjChGUMz7s=",
+  "dgSpecHash": "X57vF4QqBY0=",
   "success": true,
-  "projectFilePath": "/Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/ChoreJamming.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/plate/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "/Users/plate/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\kyleb\\RiderProjects\\itunespuller\\ChoreJamming.Domain\\ChoreJamming.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

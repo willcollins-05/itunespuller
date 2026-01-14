@@ -9,3 +9,15 @@
 /Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/obj/Debug/net9.0/refint/ChoreJamming.Domain.dll
 /Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/obj/Debug/net9.0/ChoreJamming.Domain.pdb
 /Users/plate/RiderProjects/ChoreJamming/ChoreJamming.Domain/obj/Debug/net9.0/ref/ChoreJamming.Domain.dll
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\bin\Debug\net9.0\ChoreJamming.Domain.deps.json
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\bin\Debug\net9.0\ChoreJamming.Domain.dll
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\bin\Debug\net9.0\ChoreJamming.Domain.pdb
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.AssemblyInfoInputs.cache
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.AssemblyInfo.cs
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.sourcelink.json
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.dll
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\refint\ChoreJamming.Domain.dll
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ChoreJamming.Domain.pdb
+C:\Users\kyleb\RiderProjects\itunespuller\ChoreJamming.Domain\obj\Debug\net9.0\ref\ChoreJamming.Domain.dll
